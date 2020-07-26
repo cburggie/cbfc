@@ -1,8 +1,8 @@
-dbfc -- dburggie's brainfuck compiler
+cbfc -- cburggie's brainfuck compiler
 
 about:
-	dbfc compiles brainfuck source to C code. You can then use any c compiler
-	to create a native binary. Code compiled with dbfc is accomplised through
+	cbfc compiles brainf_ck source to C code. You can then use any c compiler
+	to create a native binary. Code compiled with cbfc is accomplised through
 	stdin and stdout exclusively, so pipe your input or output if you need to.
 
 build:
@@ -12,5 +12,5 @@ install:
 	$ make install
 
 use:
-	$ dbfc [output_filename.bf.c] input_filename.bf
+	$ cbfc [output_filename.bf.c] input_filename.bf
 

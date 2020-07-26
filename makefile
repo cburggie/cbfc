@@ -7,7 +7,7 @@ CFLAGS = -Wall
 CC = gcc ${CFLAGS} ${INC}
 
 OBJ = build/main.o build/compile.o
-EXE = dbfc
+EXE = cbfc
 INX = ${INSTALLDIR}/${EXE}
 
 
